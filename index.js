@@ -4,7 +4,6 @@ const card = document.querySelector(".card");
 const spinner = document.getElementById("spinner");
 const unitToggle = document.getElementById("unitToggle");
 
-// ✅ Use the deployed backend URL
 const backendUrl = "https://weather-backend-mf26.onrender.com";
 
 weatherForm.addEventListener("submit", async (event) => {
