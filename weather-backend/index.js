@@ -9,12 +9,12 @@ const API_KEY = process.env.API_KEY;
 
 app.use(cors());
 
-// ✅ Root route to handle base URL
+// Root route to handle base URL
 app.get("/", (req, res) => {
     res.send("🌤 Weather API is running!");
 });
 
-// ✅ Weather route
+// Weather route
 app.get("/weather", async (req, res) => {
     const city = req.query.city;
 
