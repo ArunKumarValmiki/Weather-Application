@@ -4,8 +4,8 @@ const card = document.querySelector(".card");
 const spinner = document.getElementById("spinner");
 const unitToggle = document.getElementById("unitToggle");
 
-
-const backendUrl = "https://weather-backend-mf26.onrender.com/";
+// ✅ Use the deployed backend URL
+const backendUrl = "https://weather-backend-mf26.onrender.com";
 
 weatherForm.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -21,7 +21,7 @@ weatherForm.addEventListener("submit", async (event) => {
             const weatherData = await getWeatherData(city);
             displayWeatherInfo(weatherData, useCelsius);
         } catch (error) {
-            displayError(error.message);
+            displayError("⚠️ " + error.message);
         } finally {
             showSpinner(false);
         }

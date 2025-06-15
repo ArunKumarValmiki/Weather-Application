@@ -9,6 +9,12 @@ const API_KEY = process.env.API_KEY;
 
 app.use(cors());
 
+// ✅ Root route to handle base URL
+app.get("/", (req, res) => {
+    res.send("🌤 Weather API is running!");
+});
+
+// ✅ Weather route
 app.get("/weather", async (req, res) => {
     const city = req.query.city;
 
@@ -26,5 +32,5 @@ app.get("/weather", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`✅ Server is running on port ${PORT}`);
 });
