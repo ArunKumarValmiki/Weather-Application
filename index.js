@@ -5,7 +5,7 @@ const spinner = document.getElementById("spinner");
 const unitToggle = document.getElementById("unitToggle");
 
 
-const backendUrl = "https://your-backend-url.onrender.com";
+const backendUrl = "https://weather-backend-mf26.onrender.com/";
 
 weatherForm.addEventListener("submit", async (event) => {
     event.preventDefault();
