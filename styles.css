@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px 10px;
+}
+
+.weatherForm {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cityInput {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #023e8a;
+}
+
+.unitToggle {
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    background: linear-gradient(145deg, #caf0f8, #ade8f4);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.cityDisplay, .tempDisplay {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #03045e;
+    margin: 15px 0;
+}
+
+.humidityDisplay {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #0077b6;
+}
+
+.weatherEmoji {
+    font-size: 6rem;
+    margin-top: 20px;
+}
+
+.errorDisplay {
+    font-size: 1.8rem;
+    color: red;
+    font-weight: bold;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #0077b6;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
