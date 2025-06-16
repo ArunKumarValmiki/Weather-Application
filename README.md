@@ -69,4 +69,28 @@ A modern weather web application that allows users to get real-time weather data
 6. **Now start the server(weather-backend/index.js)**
    ```bash
    node index.js
-7. **Open index.html in web browser and enter the city name to get the current live weather**   
+7. **Open index.html in web browser and enter the city name to get the current live weather**
+
+   ---
+
+## 📂 Project Structure
+   ```bash
+   Weather-Application/
+   ├── index.html
+   ├── index.js
+   ├── styles.css
+   ├── weather-backend/
+   │   ├── index.js
+   │   ├── .env
+   │   ├── package.json
+   │   ├── .gitignore
+   │   └── node_modules
+```
+--- 
+## 🙋‍♂️ Author
+### Arun Kumar Valmiki
+
+
+
+
+
