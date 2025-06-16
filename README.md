@@ -52,14 +52,14 @@ A modern weather web application that allows users to get real-time weather data
    ```bash
    git clone https://github.com/ArunKumarValmiki/Weather-Application.git
    cd Weather-Application/weather-backend
-2. **Install dependencies**:
+2. **Install dependencies(Make sure you are in the weather-backend folder)**:
    ```bash
    npm init -y
    npm install express axios dotenv cors
 3. **Create Files**:
    ```bash
    touch index.js .env .gitignore
-4. **Add these code in .gitignore**:
+4. **Add this code in .gitignore**:
    ```bash
    node_modules
    .env
