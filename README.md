@@ -9,7 +9,7 @@ A modern weather web application that allows users to get real-time weather data
 - **Frontend (GitHub Pages):**  
   👉 [https://arunkumarvalmiki.github.io/Weather-Application/](https://arunkumarvalmiki.github.io/Weather-Application/)
 
-- **Backend (Render):**  
+- **Backend (Render — may take 1–2 minutes to wake up on first load)**  
   👉 [https://weather-backend-mf26.onrender.com](https://weather-backend-mf26.onrender.com)
 
 ---
